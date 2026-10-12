@@ -65,7 +65,7 @@ export function TemplatesCatalog({
   onOpenOrderModal,
   isAdmin = false,
   onEditTemplate,
-  onDeleteTemplate,
+  onSubmitClientOrder?: (pedido: any) => void;
   onSaveNewOrderFromClient,
 }: TemplatesCatalogProps) {
   const [searchQuery, setSearchQuery] = useState('');
