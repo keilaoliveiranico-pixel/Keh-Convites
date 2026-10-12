@@ -58,6 +58,7 @@ export interface TemplatesCatalogProps {
   onEditTemplate?: (template: InvitationTemplate) => void;
   onDeleteTemplate?: (templateId: string) => void;
   onSaveNewOrderFromClient?: (order: Order) => void;
+  onSubmitClientOrder?: (pedido: any) => void;
 }
 
 export function TemplatesCatalog({
