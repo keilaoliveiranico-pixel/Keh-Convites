@@ -1,0 +1,379 @@
+{
+  "projectName": "quero-criar-um",
+  "framework": "React 18 + Vite + Tailwind CSS",
+  "architecturalDecisions": [],
+  "activeWorkingSet": [
+    "src/components/TemplatesCatalog.tsx",
+    "src/components/ClientOrderModal.tsx",
+    "src/components/NewTemplateModal.tsx",
+    "src/types/index.ts",
+    "src/data/initialData.ts",
+    "src/components/NewOrderModal.tsx",
+    "src/components/OrdersManager.tsx",
+    "src/App.tsx",
+    "src/components/Navbar.tsx",
+    "src/components/EarningsDashboard.tsx",
+    "src/index.css",
+    "src/components/AdminLoginModal.tsx"
+  ],
+  "commitLedger": [
+    {
+      "id": "qrx6C3D-nAOLm-FgXtvtj",
+      "timestamp": 1791834127184,
+      "prompt": "Retira ess parte interativos com botoes  cards e imagem  Vídeos Animados\n\nSave The Date\n\nKits Digitais",
+      "summary": "```tsx:src/components/TemplatesCatalog.tsx import React, { useState } from 'react'; import { InvitationTemplate, Order } from '@/types'; import { Card, CardContent } from '@/components/ui/card'; impor",
+      "filesCreated": [],
+      "filesModified": [
+        "src/components/TemplatesCatalog.tsx",
+        "src/components/ClientOrderModal.tsx",
+        "src/components/NewTemplateModal.tsx"
+      ],
+      "filesDeleted": []
+    },
+    {
+      "id": "dSjEVdrIFEo0__35cOiE8",
+      "timestamp": 1791833779848,
+      "prompt": "sobre as opçoes de modelos de casamento 15 anos essas coisas nao exiiste pq eu nao vou colocar temas e sim so modelos de convites digitais entao nao precisa disso ",
+      "summary": "```tsx:src/types/index.ts export type OrderStatus = 'pendente' | 'em_criacao' | 'aprovacao' | 'concluido' | 'cancelado'; export type PaymentStatus = 'pago' | 'parcial' | 'pendente'; export type Invita",
+      "filesCreated": [],
+      "filesModified": [
+        "src/types/index.ts",
+        "src/data/initialData.ts",
+        "src/components/TemplatesCatalog.tsx",
+        "src/components/NewTemplateModal.tsx",
+        "src/components/NewOrderModal.tsx",
+        "src/components/OrdersManager.tsx",
+        "src/components/ClientOrderModal.tsx",
+        "src/App.tsx"
+      ],
+      "filesDeleted": []
+    },
+    {
+      "id": "v8FrdKj6E4EXhMaW-AiIh",
+      "timestamp": 1791832962316,
+      "prompt": "quero poder excluir pedidos ",
+      "summary": "```tsx:src/components/OrdersManager.tsx import React, { useState } from 'react'; import { Order, OrderStatus } from '@/types'; import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui",
+      "filesCreated": [],
+      "filesModified": [
+        "src/components/OrdersManager.tsx",
+        "src/App.tsx",
+        "src/components/TemplatesCatalog.tsx"
+      ],
+      "filesDeleted": []
+    },
+    {
+      "id": "TQNrsV0_gOjnmBc95Ydgf",
+      "timestamp": 1791832597038,
+      "prompt": "na parte de editar modelo dentro do administrativo quero poder enviar nao só foto mais videos tbm do meu computador",
+      "summary": "```tsx:src/components/NewTemplateModal.tsx import React, { useState, useEffect, useRef } from 'react'; import { InvitationTemplate, InvitationCategory, DigitalFormat } from '@/types'; import { Card, C",
+      "filesCreated": [],
+      "filesModified": [
+        "src/components/NewTemplateModal.tsx",
+        "src/components/TemplatesCatalog.tsx",
+        "src/components/ClientOrderModal.tsx",
+        "src/App.tsx"
+      ],
+      "filesDeleted": []
+    },
+    {
+      "id": "UK_OqhD23aM47PeVybZnl",
+      "timestamp": 1791831924925,
+      "prompt": "vamos para area administrativa quero poder editar os modelos já postado como enviar as fotos e video dos convites e editar os valores colocar promoção e na parte de pedido eu possa abrir as informações para enteder  oq a cliente quer ",
+      "summary": "```tsx:src/types/index.ts export type OrderStatus = 'pendente' | 'em_criacao' | 'aprovacao' | 'concluido' | 'cancelado'; export type PaymentStatus = 'pago' | 'parcial' | 'pendente'; export type Invita",
+      "filesCreated": [],
+      "filesModified": [
+        "src/types/index.ts",
+        "src/components/NewTemplateModal.tsx",
+        "src/components/OrdersManager.tsx",
+        "src/components/TemplatesCatalog.tsx",
+        "src/App.tsx",
+        "src/components/NewOrderModal.tsx"
+      ],
+      "filesDeleted": []
+    },
+    {
+      "id": "9mkgS7ZkU1-E0za_CrFQG",
+      "timestamp": 1791828209411,
+      "prompt": "FIZ O TESTE E NAO ESTA INO O PEDIDO PARA MINHA AREA ADMONISGTRATIVA",
+      "summary": "```tsx:src/components/ClientOrderModal.tsx import React, { useState, useRef } from 'react'; import { InvitationTemplate, Order } from '@/types'; import { Card, CardHeader, CardTitle, CardContent } fro",
+      "filesCreated": [],
+      "filesModified": [
+        "src/components/ClientOrderModal.tsx",
+        "src/components/TemplatesCatalog.tsx",
+        "src/App.tsx"
+      ],
+      "filesDeleted": []
+    },
+    {
+      "id": "m0i0MF8T5NeGfvO2J2NzH",
+      "timestamp": 1791827797653,
+      "prompt": "na hora em que pedir os convites em vez de enviar para o whtasapp coloca a opção de pagamento meu pix é 32998040080    ",
+      "summary": "```tsx:src/components/ClientOrderModal.tsx import React, { useState, useRef } from 'react'; import { InvitationTemplate, Order } from '@/types'; import { Card, CardHeader, CardTitle, CardContent } fro",
+      "filesCreated": [],
+      "filesModified": [
+        "src/components/ClientOrderModal.tsx"
+      ],
+      "filesDeleted": []
+    },
+    {
+      "id": "iLPDqgOQIS9I8P0f5ESPD",
+      "timestamp": 1791815004105,
+      "prompt": "deixa os ensaios no final pq o foco sao os convites ",
+      "summary": "```tsx:src/components/TemplatesCatalog.tsx import React, { useState } from 'react'; import { InvitationTemplate, InvitationCategory, DigitalFormat } from '@/types'; import { Card, CardContent } from '",
+      "filesCreated": [],
+      "filesModified": [
+        "src/components/TemplatesCatalog.tsx",
+        "src/components/ClientOrderModal.tsx"
+      ],
+      "filesDeleted": []
+    },
+    {
+      "id": "1hA4XN-49XYe1_VlyTB6c",
+      "timestamp": 1791814772299,
+      "prompt": "queria tbm poder oferecer um oiutro trabalho de ensaios digitais para poder ter a opção de colocar no convite nao sei se ofereço dengtro do campo onde é preenchido mais porem devo mostrar alguns ensaios de exmplo ",
+      "summary": "```tsx:src/types/index.ts export type OrderStatus = 'pendente' | 'em_criacao' | 'aprovacao' | 'concluido' | 'cancelado'; export type PaymentStatus = 'pago' | 'parcial' | 'pendente'; export type Invita",
+      "filesCreated": [],
+      "filesModified": [
+        "src/types/index.ts",
+        "src/components/ClientOrderModal.tsx",
+        "src/components/TemplatesCatalog.tsx",
+        "src/components/OrdersManager.tsx",
+        "src/App.tsx",
+        "src/components/NewOrderModal.tsx",
+        "src/components/NewTemplateModal.tsx"
+      ],
+      "filesDeleted": []
+    },
+    {
+      "id": "i93ILmwdrDaWmFyDBH9ke",
+      "timestamp": 1791814181073,
+      "prompt": "lembra que sao convites digitais ",
+      "summary": "```tsx:src/components/TemplatesCatalog.tsx import React, { useState } from 'react'; import { InvitationTemplate, InvitationCategory, DigitalFormat } from '@/types'; import { Card, CardContent } from '",
+      "filesCreated": [],
+      "filesModified": [
+        "src/components/TemplatesCatalog.tsx",
+        "src/components/ClientOrderModal.tsx"
+      ],
+      "filesDeleted": []
+    },
+    {
+      "id": "zHU2kWWJ0ZyxcJMZ-jXU_",
+      "timestamp": 1791813872774,
+      "prompt": "sem mudar a proposta deixa o desgner da loja mis bonita e delicada algo mais leracionado a personalizado ",
+      "summary": "```tsx:src/components/TemplatesCatalog.tsx import React, { useState } from 'react'; import { InvitationTemplate, InvitationCategory } from '@/types'; import { Card, CardContent } from '@/components/ui",
+      "filesCreated": [],
+      "filesModified": [
+        "src/components/TemplatesCatalog.tsx",
+        "src/App.tsx"
+      ],
+      "filesDeleted": []
+    },
+    {
+      "id": "QM7PgSBDC6NYZboD3LO1Z",
+      "timestamp": 1791813419432,
+      "prompt": "no menu só deixa o keh convite e coloca uma frase chamativa e a area restrita só muda isso e mais nada ",
+      "summary": "```tsx:src/components/Navbar.tsx import React from 'react'; import { Sparkles, Lock, LogOut, Layers, DollarSign, FolderHeart, Plus } from 'lucide-react'; import { Button } from '@/components/ui/button",
+      "filesCreated": [],
+      "filesModified": [
+        "src/components/Navbar.tsx"
+      ],
+      "filesDeleted": []
+    },
+    {
+      "id": "aeCHhNPT8sEsOOx1hiocr",
+      "timestamp": 1791813258776,
+      "prompt": "vc mudou coisas que eu nao pedi",
+      "summary": "```tsx:src/components/ClientOrderModal.tsx import React, { useState, useRef } from 'react'; import { InvitationTemplate, Order } from '@/types'; import { Card, CardHeader, CardTitle, CardContent } fro",
+      "filesCreated": [],
+      "filesModified": [
+        "src/components/ClientOrderModal.tsx"
+      ],
+      "filesDeleted": []
+    },
+    {
+      "id": "V5OoTwlWgAES6ihCtg_i6",
+      "timestamp": 1791813214459,
+      "prompt": "vc mudou coisas que eu nao pedi",
+      "summary": "```tsx:src/types/index.ts export type OrderStatus = 'pendente' | 'em_criacao' | 'aprovacao' | 'concluido' | 'cancelado'; export type PaymentStatus = 'pago' | 'parcial' | 'pendente'; export type Invita",
+      "filesCreated": [],
+      "filesModified": [
+        "src/types/index.ts",
+        "src/data/initialData.ts",
+        "src/components/ClientOrderModal.tsx",
+        "src/components/TemplatesCatalog.tsx",
+        "src/components/OrdersManager.tsx",
+        "src/App.tsx"
+      ],
+      "filesDeleted": []
+    },
+    {
+      "id": "AsKjqCHGgeoTXokTAobd2",
+      "timestamp": 1791813113653,
+      "prompt": "colocar o tema no campo de preencher e sobre a questao se vai ter botao depene mude muito o convite se for convite simples nao tem interação entao alguns modelos nao tem ",
+      "summary": "Aqui está a atualização completa com o campo **Tema da Festa/Evento** e a **diferenciação inteligente entre Convites Simples (sem botões) e Convites Interativos (com botões clicáveis)**. ### O que fo",
+      "filesCreated": [],
+      "filesModified": [
+        "src/types/index.ts",
+        "src/components/ClientOrderModal.tsx",
+        "src/components/TemplatesCatalog.tsx",
+        "src/App.tsx",
+        "src/components/OrdersManager.tsx"
+      ],
+      "filesDeleted": []
+    },
+    {
+      "id": "ZuHgcqIvyo-yU1I3OQcX3",
+      "timestamp": 1791812524260,
+      "prompt": "troque o botao quero assim quando a pessoa escolher o modelo ela aperta o modelo que quer e depois preenche o formulario com seguintes questoes   Nome do aniversariante  data do evento local  horario e dia frase especiao se a cliente quiser  o numero do whatssap para contato e se o modelo que ela comprou tiver interaçao preencher as seguintes informações  numero da confirmação de presença, lista de presente exemplo numero de sapato tazmanho de roupas e brinquedos entre outros  se quiser adicionar foto a pessoa pode anexar....",
+      "summary": "Aqui está a implementação do novo fluxo de personalização de convites para o cliente no **Keh Convites**! Agora, ao escolher qualquer modelo no catálogo, a cliente clica em **\"Quero este Modelo\"** e",
+      "filesCreated": [
+        "src/components/ClientOrderModal.tsx"
+      ],
+      "filesModified": [
+        "src/components/TemplatesCatalog.tsx",
+        "src/App.tsx",
+        "src/components/OrdersManager.tsx",
+        "src/components/EarningsDashboard.tsx"
+      ],
+      "filesDeleted": []
+    },
+    {
+      "id": "tqcjEdvI6CiYoqlKSIQ3t",
+      "timestamp": 1791811731570,
+      "prompt": "eu nao vendo só convite interativos eu vendo varios modelos ",
+      "summary": "Aqui está a adaptação completa para refletir que o **Keh Convites** trabalha com **diversos tipos e formatos de convites digitais** (Cards em Imagem de alta resolução para WhatsApp, Convites Interativ",
+      "filesCreated": [],
+      "filesModified": [
+        "src/types/index.ts",
+        "src/data/initialData.ts",
+        "src/components/Navbar.tsx",
+        "src/components/TemplatesCatalog.tsx",
+        "src/components/NewTemplateModal.tsx",
+        "src/components/NewOrderModal.tsx",
+        "src/components/OrdersManager.tsx",
+        "src/components/EarningsDashboard.tsx"
+      ],
+      "filesDeleted": []
+    },
+    {
+      "id": "88BM1x4foAG2rLoFGIU_e",
+      "timestamp": 1791809737514,
+      "prompt": "lembrando que sao convites digitais ",
+      "summary": "```tsx:src/types/index.ts export type OrderStatus = 'pendente' | 'em_criacao' | 'aprovacao' | 'concluido' | 'cancelado'; export type PaymentStatus = 'pago' | 'parcial' | 'pendente'; export type Invita",
+      "filesCreated": [],
+      "filesModified": [
+        "src/types/index.ts",
+        "src/data/initialData.ts",
+        "src/components/Navbar.tsx",
+        "src/components/TemplatesCatalog.tsx",
+        "src/components/EarningsDashboard.tsx",
+        "src/components/NewOrderModal.tsx",
+        "src/components/NewTemplateModal.tsx",
+        "src/components/OrdersManager.tsx",
+        "src/App.tsx"
+      ],
+      "filesDeleted": []
+    },
+    {
+      "id": "zS4tDkHIx21gIJxL_p_Yj",
+      "timestamp": 1791809448671,
+      "prompt": "tem como vc muar o esgner a interface deixar bem mais bonito e elicao mantendo as cores",
+      "summary": "Aqui está a renovação completa da interface e design do **Keh Convites**, mantendo rigorosamente a sua paleta oficial (**#4B2E20**, **#D4AF37**, **#F7EBDD**) e elevando a estética para um padrão de **",
+      "filesCreated": [],
+      "filesModified": [
+        "src/index.css",
+        "src/components/Navbar.tsx",
+        "src/components/TemplatesCatalog.tsx",
+        "src/components/EarningsDashboard.tsx",
+        "src/components/OrdersManager.tsx",
+        "src/App.tsx"
+      ],
+      "filesDeleted": []
+    },
+    {
+      "id": "6hMU64W4DlIJ6GLD1t-Hh",
+      "timestamp": 1791807432448,
+      "prompt": "retira a opção de cadastrar novo modelo para a cliente deixa isso só para a area administartiva",
+      "summary": "```tsx:src/components/TemplatesCatalog.tsx import React, { useState } from 'react'; import { InvitationTemplate, InvitationCategory } from '@/types'; import { Card, CardContent } from '@/components/ui",
+      "filesCreated": [],
+      "filesModified": [
+        "src/components/TemplatesCatalog.tsx",
+        "src/App.tsx"
+      ],
+      "filesDeleted": []
+    },
+    {
+      "id": "WQ3jWmV3Ykfws4JTimqZL",
+      "timestamp": 1791806733242,
+      "prompt": "retira do menu a parte finanças e deixa só atelie de convites a parte de meus ganhos e pedidos fica numa area administrativa com uma senha de acesso 41526378",
+      "summary": "```tsx:src/components/AdminLoginModal.tsx import React, { useState } from 'react'; import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card'; import { Button } from '@/components",
+      "filesCreated": [
+        "src/components/AdminLoginModal.tsx"
+      ],
+      "filesModified": [
+        "src/components/Navbar.tsx",
+        "src/App.tsx"
+      ],
+      "filesDeleted": []
+    },
+    {
+      "id": "6ORxMuy-USa_SDMT382ev",
+      "timestamp": 1791806497889,
+      "prompt": "nao gostei desse menu e coloca o nome de keh convites   coloca essas cores  #4B2E20 · #D4AF37 · #F7EBDD",
+      "summary": "```css:src/index.css @tailwind base; @tailwind components; @tailwind utilities; @layer base { :root { /* Cores principais: #F7EBDD (Creme), #4B2E20 (Marrom Nobre), #D4AF37 (Dourado Luxo) */",
+      "filesCreated": [],
+      "filesModified": [
+        "src/index.css",
+        "src/components/Navbar.tsx",
+        "src/components/EarningsDashboard.tsx",
+        "src/components/OrdersManager.tsx",
+        "src/components/TemplatesCatalog.tsx",
+        "src/components/NewOrderModal.tsx",
+        "src/components/NewTemplateModal.tsx",
+        "src/App.tsx"
+      ],
+      "filesDeleted": []
+    },
+    {
+      "id": "R5EA0LgrdBgxd6OByWE8V",
+      "timestamp": 1791805378824,
+      "prompt": "quero uma cor mais delicada e fofo e nao precisa colocar resultados que nao exisate",
+      "summary": "```css:src/index.css @tailwind base; @tailwind components; @tailwind utilities; @layer base { :root { --background: 340 60% 99%; --foreground: 335 30% 20%; --card: 0 0% 100%; --car",
+      "filesCreated": [],
+      "filesModified": [
+        "src/index.css",
+        "src/components/Navbar.tsx",
+        "src/components/EarningsDashboard.tsx",
+        "src/components/OrdersManager.tsx",
+        "src/components/TemplatesCatalog.tsx",
+        "src/components/NewOrderModal.tsx",
+        "src/components/NewTemplateModal.tsx",
+        "src/data/initialData.ts",
+        "src/App.tsx"
+      ],
+      "filesDeleted": []
+    },
+    {
+      "id": "STWY7aVPzB9Vl5lT8kQM2",
+      "timestamp": 1791805159029,
+      "prompt": "quero criar um sistema que mostre os meus ganhos que me ajuda a me organizar com pedidos de convites e que eu possoa colocar os modelos de convite que eu crio",
+      "summary": "Aqui está a implementação completa do seu sistema de gestão para designers e artesãos de convites (**Ateliê de Convites & Finanças**), com: 1. **Dashboard de Ganhos Financeiros**: métricas de faturam",
+      "filesCreated": [
+        "src/types/index.ts",
+        "src/data/initialData.ts",
+        "src/components/Navbar.tsx",
+        "src/components/EarningsDashboard.tsx",
+        "src/components/OrdersManager.tsx",
+        "src/components/TemplatesCatalog.tsx",
+        "src/components/NewOrderModal.tsx",
+        "src/components/NewTemplateModal.tsx"
+      ],
+      "filesModified": [
+        "src/App.tsx"
+      ],
+      "filesDeleted": []
+    }
+  ],
+  "createdAt": 1791805159031,
+  "updatedAt": 1791834127194
+}
